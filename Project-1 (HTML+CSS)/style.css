@@ -302,6 +302,7 @@ body{
 .contact-container{
     display: flex;
     background: #fff;
+    width: 50%;
 }
 
 .contact-image{
