@@ -1,0 +1,116 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: seashell;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/pic2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+.left img {
+    width: 100px;
+    height: 80 px;
+    border-radius: 100px;
+    /* padding-left: 50px ; */
+}
+
+.left div {
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color:rgba(250, 85, 8, 0.973);
+
+}
+
+.mid {
+    background-color: rgba(250, 85, 8, 0.973);
+    display: block;
+    width: 60%;
+    margin: 30px 300px;
+    /* border: 2px solid red; */
+
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 23px;
+    top: 15px;
+}
+
+.navbar {
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar li a:hover,
+navbar li a.active {
+    text-decoration: underline;
+    color: white;
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 11px 26px;
+    font-size: 13px;
+    margin: 17px 8px;
+    background-color: rgba(250, 85, 8, 0.973);;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.container {
+    margin: 110px 92px;
+    background-color: rgb(39, 37, 37);
+    width: 40%;
+    padding: 14px 7px;
+}
+.container h1{
+    text-align: center;
+    padding: 2px 3px;
+  }
+.from input {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    padding: 8px;
+    margin: 7px auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container button{
+    display:inline-block;
+    width: 23%;
+    margin: 34px 75px;
+    text-align: center;
+    font-size: 18px;
+}
