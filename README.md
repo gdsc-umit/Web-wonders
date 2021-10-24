@@ -1,6 +1,6 @@
 # <p align="center">⚡Web Wonders⚡</p>
 <p align="center">
-Did you know there are approximately 1.94 billion active websites in the world?? 🤔<br>
+Did you know there are approximately 1.94 billion active websites in the world??🤔<br>
 Wish to learn more about web development??🖥️<br>
 Then GDSC UMIT has got that covered, join us for ⚡Web Wonders⚡ <br>
 A week long web development boot camp where you'll learn from ground zero along with projects and hands-on.<br>
