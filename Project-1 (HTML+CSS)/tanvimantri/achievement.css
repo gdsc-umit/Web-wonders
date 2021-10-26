@@ -1,0 +1,25 @@
+@font-face {
+    font-family:script ;
+    src: url(./media/Amsterdam-ZVGqm.ttf);
+}
+.header1{
+    height:30vh;
+    width: 100vw;
+    background-color:#1d1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nameshadow1{
+    display: flex;
+    color:#f1c958;
+    opacity: 30;
+    font-size:15vh;
+    padding: 10px 16px;
+    margin-top: 13%;
+}
+.information1 li{
+    font-size: 4vh;
+    
+}
