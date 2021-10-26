@@ -67,7 +67,7 @@ The last command pushes the latest code to your forked repository on Github. The
 
 ### ADD YOUR CODE AND COMMIT IT -
 
-Once you add your files and folders OR have made changes in an existing file, run the following commands to commit your changes --
+Once you add your files inside the folders (with your name), run the following commands to commit your changes --
 
     $ git add .
     $ git commit -m "<commit message>"
