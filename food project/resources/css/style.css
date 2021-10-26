@@ -50,7 +50,8 @@ h1{
     transform: translate(-50%,-50%);
 }
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -58,7 +59,8 @@ h1{
     border-radius: 200px;
 }
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     background-color: #e67e22;
     color: #fff;
     border: 1px solid #e67e22;
@@ -72,7 +74,8 @@ h1{
     background: linear-gradient(rgba(46, 44, 44, 0.7),rgba(46, 44, 44, 0.7));
 }
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]{
     background-color: #cf6d17;
 }
 .btn-ghost:hover,
@@ -81,7 +84,8 @@ h1{
     color: #fff;
 }
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active,
+input[type=submit]{
     border: 1px solid #cf6d17;
 }
 .logo{
@@ -185,6 +189,7 @@ h2::after{
     margin: 0;
     transform: scale(1.15);
     opacity: 0.7;
+    position: relative;
 
 }
 .section-meals{
@@ -331,6 +336,7 @@ blockquote::before{
 }
 .section-plans{
     background-color: #f4f4f4;
+    margin-bottom: 30px;
 }
 .plan-box{
     background-color: #fff;
@@ -360,4 +366,83 @@ blockquote::before{
 }
 .plan-box ul li{
     padding: 5px 0;
+}
+.plan-box div:last-child{
+    border: 0;
+    text-align: center;
+}
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+input[type=text],
+input[type=email],
+select{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 100%;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 50px;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+.footer-nav li a:hover,
+.footer-nav li a:hover{
+    color: #ddd;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 20px;
+}
+.fb:hover{
+    color: #3b5998;
+}
+.google:hover{
+    color: #dd4b39;
+} 
+.twitter:hover{
+    color: #00aced;
+}
+.insta:hover{
+    color: #517fa4;
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
 }
