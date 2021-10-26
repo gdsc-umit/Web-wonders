@@ -1,0 +1,120 @@
+@font-face {
+    font-family: skyline;
+    src: url('../HTML-CSS/Media/AsianSkylineDemoRegular-ggL5.ttf');
+}
+@font-face {
+    font-family: Vedacity;
+    src: url('../HTML-CSS/Media/VedacityDemoRegular-mMpj.ttf');
+}
+@font-face {
+    font-family: dolly;
+    src: url('../HTML-CSS/Media/DollynScriptDemoRegular-Bym5.ttf');
+}
+@font-face {
+    font-family: script;
+    src: url('../HTML-CSS/Media/RomancesScriptFont-j2ql.ttf');
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.main{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    overflow : hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 226, 235);
+}
+
+.header{
+ height: 30vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    color:#434ca0;
+    /* background-color: rgb(212, 228, 68); */
+    justify-content: center;
+    align-items: center;
+}
+.socials
+{
+    display: flex;
+    flex-direction: row;
+}
+.photo{
+    height: 70vh;
+    width: 50vw;
+    /* background-color: rgb(68, 191, 228); */
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    display: flex;
+    margin: 5vh 5vw;
+    height:60vh;
+}
+
+.nameshadow{
+    display: flex;
+    color:#e29d095b;
+    opacity: 30;
+    font-size:20vh;
+    
+    /* height:0vh; */
+    /* width: 0vw; */
+}
+.name{
+    display: flex;
+    color:#81817b;
+    font-size:20vh;
+    position: absolute;
+    font-family: script;
+    /* word-spacing: 20vw; */
+    letter-spacing: 5px;
+    margin-top: 20vh;
+
+    /* height:0vh; */
+    /* width: 0vw; */
+}
+
+.navbar {
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-color: #24565a;
+   }
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #5ed3cd;
+}
