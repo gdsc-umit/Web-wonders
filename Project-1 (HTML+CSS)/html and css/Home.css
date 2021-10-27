@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: script;
+    src: url('./media/Amsterdam-ZVGqm.ttf');
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.main{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    overflow : hidden;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(54, 53, 53, 0.719);
+}
+
+.header{
+ height: 30vh;
+ width: 100vw;
+ display: flex;
+ margin-top: 15vh;
+ justify-content: center;
+ align-items: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    font-size: 28px;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    color:#121212;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+
+.information p
+{
+   margin-top:-2vh;
+}
+.socials
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.resume a
+{
+    background-color: #470f34; /* Green */
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 3vh;
+}
+.photo{
+    height: 70vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 2s;
+}
+
+.pic:hover
+{
+   left: 45%;
+}
+.pic{
+    display: flex;
+    margin: 1vh 15vw;
+    margin-top: -3.5vh;
+    margin-left: 45vh;
+    height:75vh;
+    width: 25vw;
+
+}
+
+.nameshadow{
+    display: flex;
+    color:#720660;
+    opacity: 50;
+    font-size:11.3vh;
+    font-family: script;
+    margin-top: 2.2em;
+
+}
+.name{
+    display: flex;
+    color:#689775;
+    font-size:18vh;
+    position: absolute;
+    font-family: script;
+    letter-spacing: 4px;
+    margin-top: 20vh;
+}
+
+.navbar {
+    position: absolute;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-color: #470f34;
+}
+
+.navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.navbar a:hover {
+  background-color: #720660;
+  border-radius: 5px;
+}
